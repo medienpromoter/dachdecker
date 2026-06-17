@@ -1,0 +1,51 @@
+# [FIRMENNAME] – Dachdecker [Stadt]
+
+## Über uns
+[FIRMENNAME] ist ein Dachdecker-Fachbetrieb aus [Stadt], [Region].
+Meisterbetrieb und Innungsmitglied seit [GRÜNDUNGSJAHR].
+Inhaber: [Vorname Nachname]
+
+## Kontakt
+- Telefon: 0[XXX] [XXXXXXX]
+- E-Mail: info@[domain].de
+- Adresse: [Straße XX], [XXXXX] [Stadt]
+- Notfall-Hotline: 24/7
+
+## Leistungen
+- Dacheindeckung (Steildach, Flachdach, Metalldach, Reetdach)
+- Dachsanierung & Reparatur (Notabdeckung, Sturmschaden, Komplettsanierung)
+- Dachdämmung (Zwischensparren, Aufsparren, Flachdach, KfW-Förderung)
+- Dachausbau (Wohnraum, Gauben, Dachflächenfenster, Dachterrasse)
+- Photovoltaik-Montage (Steildach, Flachdach, Indach-Systeme)
+- Klempnerarbeiten (Dachrinnen, Verblechungen, Schneefangsysteme)
+- Wartung & Dach-Check (jährlich, Moosentfernung, Wartungsvertrag)
+- Gerüstbau (im Leistungspaket und auf Anfrage separat)
+
+## Einzugsgebiet
+[Stadt], [Nachbarort 1], [Nachbarort 2], [Region] – kostenlose Besichtigung im Umkreis von ca. [XX] km.
+
+## Qualifikationen
+- Dachdeckermeister
+- Innungsmitglied Dachdecker-Innung [Region]
+- Herstellerzertifikate: [Braas / Creaton / Bauder / weitere]
+- Google-Bewertung: [X.X] / 5 ([XXX] Bewertungen)
+
+## Besonderheiten
+- Sturmschaden: Notabdeckung noch am selben Tag, Versicherungsdokumentation
+- KfW/BAFA-Förderberatung für Dachdämmung (BEG-Programm)
+- Wartungsvertrag: automatische Jahreserinnerung, kündbar
+
+## Seitenstruktur
+- /index.html – Startseite
+- /leistungen.html – Leistungsübersicht
+- /leistungen/dacheindeckung.html
+- /leistungen/dachsanierung-reparatur.html
+- /leistungen/dachdaemmung.html
+- /leistungen/dachausbau.html
+- /leistungen/photovoltaik.html
+- /leistungen/klempnerarbeiten.html
+- /leistungen/wartung-dach-check.html
+- /leistungen/geruestbau.html
+- /kontakt.html
+- /impressum.html
+- /datenschutz.html

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | [FIRMENNAME] Dachdecker [Stadt]</title>
+  <meta name="description" content="Kontakt zu [FIRMENNAME] Dachdecker in [Stadt]: Angebot anfragen, Sturmschaden melden oder Dach-Check buchen. Telefon, E-Mail und Kontaktformular.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo"><div class="logo-text"><span>[FIRMEN</span>NAME]<br><small style="font-size:.6em;font-weight:400;color:#666">Dachdeckermeister · [Stadt]</small></div></a>
+    <button class="nav-toggle" aria-label="Navigation öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-main" aria-label="Hauptnavigation"><ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li class="has-dropdown"><a href="leistungen.html">Leistungen</a>
+        <ul class="dropdown">
+          <li><a href="leistungen/dacheindeckung.html">Dacheindeckung</a></li>
+          <li><a href="leistungen/dachsanierung-reparatur.html">Dachsanierung & Reparatur</a></li>
+          <li><a href="leistungen/dachdaemmung.html">Dachdämmung</a></li>
+          <li><a href="leistungen/dachausbau.html">Dachausbau</a></li>
+          <li><a href="leistungen/photovoltaik.html">Photovoltaik</a></li>
+          <li><a href="leistungen/klempnerarbeiten.html">Klempnerarbeiten</a></li>
+          <li><a href="leistungen/wartung-dach-check.html">Wartung & Dach-Check</a></li>
+          <li><a href="leistungen/geruestbau.html">Gerüstbau</a></li>
+        </ul>
+      </li>
+      <li><a href="kontakt.html" class="active">Kontakt</a></li>
+    </ul></nav>
+    <div class="header-cta">
+      <a href="tel:0XXXXXXXX" class="header-phone">0[XXX] [XXXXXXX]<small>Mo–Fr 7–17 Uhr</small></a>
+      <a href="kontakt.html" class="btn btn-primary">Angebot anfragen</a>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-content container">
+    <h1>Kontakt</h1>
+    <p>Angebot anfragen, Dach-Check buchen oder Sturmschaden melden – wir antworten innerhalb von 24 Stunden.</p>
+  </div>
+</div>
+
+
+<section class="section">
+  <div class="container">
+    <div class="kontakt-split">
+
+      <!-- Kontaktformular – LINKS -->
+      <div>
+        <h2>Anfrage senden</h2>
+        <p style="color:var(--color-mid);margin-bottom:1.5rem;">
+          Kurze Beschreibung reicht – wir melden uns innerhalb von 24 Stunden und vereinbaren
+          einen kostenlosen Besichtigungstermin.
+        </p>
+
+        <form data-feedback action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Ihr Name *</label>
+            <input type="text" id="name" name="name" placeholder="Max Mustermann" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefon">Telefon *</label>
+            <input type="tel" id="telefon" name="telefon" placeholder="0[XXX] [XXXXXXX]" required>
+            <p class="form-note">Für Rückfragen – wir rufen zurück, wenn Sie nicht erreichbar sind.</p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="max@beispiel.de">
+          </div>
+
+          <div class="form-group">
+            <label for="leistung">Worum geht es? *</label>
+            <select id="leistung" name="leistung" required>
+              <option value="">– bitte wählen –</option>
+              <option value="dacheindeckung">Neue Dacheindeckung</option>
+              <option value="sanierung">Dachsanierung / Reparatur</option>
+              <option value="daemmung">Dachdämmung</option>
+              <option value="ausbau">Dachausbau</option>
+              <option value="pv">Photovoltaik-Montage</option>
+              <option value="klempner">Klempnerarbeiten / Dachrinnen</option>
+              <option value="wartung">Dach-Check / Wartung</option>
+              <option value="sturmschaden">Sturmschaden</option>
+              <option value="sonstiges">Sonstiges</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="nachricht">Kurze Beschreibung</label>
+            <textarea id="nachricht" name="nachricht" placeholder="z. B. Doppelhaus Bj. 1985, Dach undicht im Bereich Schornstein, ca. 180 m² Dachfläche ..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="datenschutz-label">
+              <input type="checkbox" name="datenschutz" required class="datenschutz-check">
+              <span>
+                Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und
+                bin mit der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage einverstanden. *
+              </span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            Anfrage absenden
+          </button>
+          <p class="form-note" style="margin-top:.75rem;text-align:center;">
+            * Pflichtfelder · Kostenlose Besichtigung in [Stadt] und Umgebung
+          </p>
+        </form>
+      </div>
+
+      <!-- Kontaktinformationen – RECHTS -->
+      <div class="kontakt-info">
+        <h2>So erreichen Sie uns</h2>
+        <p style="color:var(--color-mid);margin-bottom:1rem;">
+          Für akute Schadensfälle rufen Sie uns bitte direkt an –
+          wir sind schnell vor Ort.
+        </p>
+
+        <div class="kontakt-box">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02z"/></svg>
+          <div>
+            <strong>Telefon</strong>
+            <a href="tel:0XXXXXXXX" style="display:block;font-size:1.1rem;font-weight:700;color:var(--color-primary);">0[XXX] [XXXXXXX]</a>
+            <span style="font-size:.8rem;color:var(--color-mid);">Mo – Fr: 07:00 – 17:00 Uhr · Notfall: 24/7</span>
+          </div>
+        </div>
+
+        <div class="kontakt-box">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <div>
+            <strong>E-Mail</strong>
+            <a href="mailto:info@[domain].de" style="display:block;">info@[domain].de</a>
+            <span style="font-size:.8rem;color:var(--color-mid);">Antwort innerhalb von 24 Stunden</span>
+          </div>
+        </div>
+
+        <div class="kontakt-box">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <div>
+            <strong>Adresse</strong>
+            <span style="display:block;">[Straße XX], [XXXXX] [Stadt]</span>
+            <a href="https://maps.google.com/?q=[FIRMENADRESSE]" target="_blank" rel="noopener" style="font-size:.8rem;">In Google Maps öffnen →</a>
+          </div>
+        </div>
+
+        <div class="kontakt-box">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          <div>
+            <strong>Öffnungszeiten</strong>
+            <span style="display:block;">Mo – Fr: 07:00 – 17:00 Uhr · Sa: n. V.</span>
+          </div>
+        </div>
+
+        <div style="margin-top:1rem;background:var(--color-primary);color:white;border-radius:var(--radius);padding:1rem 1.25rem;">
+          <strong style="display:block;margin-bottom:.35rem;">⚡ Sturmschaden?</strong>
+          Rufen Sie uns sofort an – Notabdeckung und Versicherungsdokumentation.
+          <a href="tel:0XXXXXXXX" style="display:block;margin-top:.5rem;color:white;font-weight:700;">0[XXX] [XXXXXXX] – Jetzt anrufen</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Karte Platzhalter -->
+<div style="background:var(--color-light);padding:2rem 0;border-top:1px solid var(--color-border);">
+  <div class="container">
+    <p style="color:var(--color-mid);font-size:.88rem;text-align:center;">
+      <strong>Einzugsgebiet:</strong> [Stadt], [Nachbarort 1], [Nachbarort 2], [Nachbarort 3]
+      und weitere Orte in [Region]. Kostenlose Besichtigung im Umkreis von ca. [XX] km.
+    </p>
+  </div>
+</div>
+
+<footer class="site-footer"><div class="container">
+  <div class="footer-main">
+    <div>
+      <div class="footer-logo-text"><span>[FIRMEN</span>NAME]</div>
+      <p class="footer-desc">Ihr Dachdecker-Fachbetrieb aus [Stadt]. Meisterbetrieb, Innungsmitglied, seit [GRÜNDUNGSJAHR] in [Region].</p>
+      <div class="footer-contact-item"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02z"/></svg><a href="tel:0XXXXXXXX">0[XXX] [XXXXXXX]</a></div>
+      <div class="footer-contact-item"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:info@[domain].de">info@[domain].de</a></div>
+    </div>
+    <div class="footer-col"><h4>Leistungen</h4><ul>
+      <li><a href="leistungen/dacheindeckung.html">Dacheindeckung</a></li>
+      <li><a href="leistungen/dachsanierung-reparatur.html">Dachsanierung</a></li>
+      <li><a href="leistungen/dachdaemmung.html">Dachdämmung</a></li>
+      <li><a href="leistungen/dachausbau.html">Dachausbau</a></li>
+      <li><a href="leistungen/photovoltaik.html">Photovoltaik</a></li>
+      <li><a href="leistungen/klempnerarbeiten.html">Klempnerarbeiten</a></li>
+      <li><a href="leistungen/wartung-dach-check.html">Wartung & Dach-Check</a></li>
+      <li><a href="leistungen/geruestbau.html">Gerüstbau</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Unternehmen</h4><ul>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+      <li><a href="datenschutz.html">Datenschutz</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Öffnungszeiten</h4><ul>
+      <li>Mo – Fr: 07:00 – 17:00 Uhr</li>
+      <li>Sa: nach Vereinbarung</li>
+      <li>Notfall: 24/7</li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span class="js-year">2025</span> [FIRMENNAME]</span>
+    <div class="footer-bottom-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+  </div>
+</div></footer>
+<script src="js/nav.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
