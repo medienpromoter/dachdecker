@@ -12,14 +12,26 @@
     });
   }
 
-  /* Mobile Dropdown */
+  /* Mobile + Touch Dropdown */
   document.querySelectorAll('.has-dropdown').forEach(item => {
     item.querySelector('a').addEventListener('click', function (e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        item.classList.toggle('open');
+      const mobileNavOpen = toggle && toggle.offsetParent !== null;
+      const isTouch = !matchMedia('(hover: hover) and (pointer: fine)').matches;
+      if (mobileNavOpen || isTouch) {
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.has-dropdown.open').forEach(el => el.classList.remove('open'));
+        if (!isOpen) {
+          e.preventDefault();
+          item.classList.add('open');
+        }
       }
     });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.has-dropdown')) {
+      document.querySelectorAll('.has-dropdown.open').forEach(el => el.classList.remove('open'));
+    }
   });
 
   /* Active Link */
